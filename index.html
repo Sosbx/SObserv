@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4f46e5" />
+    <meta name="description" content="Création d'observations et d'ordonnances" />
+    <link rel="icon" type="image/png" href="/icone.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Meta tags pour l'icône d'application mobile -->
+    <link rel="apple-touch-icon" href="/icone.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="SObserv" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    
+    <!-- Styles pour l'icône d'installation -->
+    <style>
+      @media (max-width: 768px) {
+        .pwa-install-icon {
+          width: 70vw;
+          height: auto;
+          max-width: 512px;
+        }
+      }
+    </style>
+    
+    <title>SObserv</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
